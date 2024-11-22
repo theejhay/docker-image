@@ -6,7 +6,7 @@ LABEL maintainer="ogunyemitaiwojohn@gmail.com"
 RUN apt-get update
 RUN apt-get upgrade -y
 
-RUN app-get install nginx -y
+RUN apt-get install nginx -y
 
 EXPOSE 80
 
